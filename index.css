@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(http://andykravchuk.github.io/css/gplaypattern.png);
+}
+
+.header {
+    font-size: 20px;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.listItem {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 600px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+}
+
+.heading {
+    font-size: 18px;
+    color: #262626;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.sub-heading {
+    font-size: 16px;
+    color: #262626;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.paragraph {
+    text-align: center;
+    font-size: 16px;
+    color: #262626;
+}
+
+#mapSection, #instagramSection, #diplomaSection {
+    display: none;
+}
+
+.videoFrame {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.image {
+    margin-top: 10px;
+    width: 100%;
+}
